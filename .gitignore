@@ -1,0 +1,11 @@
+*.txt
+__pycache__
+dist/
+references/
+tests/
+*.lock
+*.toml
+certs/
+.history/
+sample_*
+*.zip
