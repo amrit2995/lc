@@ -89,9 +89,9 @@ class CommonConfigs:
     ENV = 'stage'
     
 BASE_URLS = {
-    'dev': 'https://internal-east4.carbon-dev.gcp.lowes.com',
-    'stage': 'https://internal-east4.carbon-stage.gcp.lowes.com',
-    'prod': 'https://internal-east4.carbon.gcp.lowes.com',
+    'dev': 'dev',
+    'stage': 'stage',
+    'prod': 'prod',
 }
 
 class HostConfigs:

@@ -6,8 +6,8 @@ from kuber_data_sync.configs import CommonConfigs, MongoConfigs
 
 class Report:
     report_data = {}
-    RECEPIENTS = ['amrit.prusty@lowes.com']
-    POSTIE_HASH = 'nHw55D0xKuf3xPOJMAzP6ETKlxYzXp5QPMlDSIPs'
+    RECEPIENTS = ['@email.com']
+    POSTIE_HASH = '<hash>'
 
     @classmethod
     def update_entity_mongo_stats(cls, entity: str, data: dict):
