@@ -10,7 +10,7 @@ COMMON_CONFIG= {
     "QGEN_SCORE_BASELINE_SCORE" : 1,
     "TIMEZONE_CONFIG": "US/Eastern",
     "LOG_FORMAT" : "airflow.task",
-    "LOWES_PD_HOST_PREFIX" : "https://www.lowes.com/pd/"
+    "PD_HOST_PREFIX" : "<url>"
 }
 
 CLICKSTREAM_SEARCHTERM_FETCHER = {

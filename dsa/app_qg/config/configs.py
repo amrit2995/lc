@@ -1,9 +1,9 @@
 NUCLEUS={
     "host": {
-        "local": "https://internal-east4.carbon-stage.gcp.lowes.com",
-        "dev": "https://internal-east4.carbon-stage.gcp.lowes.com",
-        "stage": "https://internal-east4.carbon-stage.gcp.lowes.com",
-        "prod": "https://internal-east4.carbon.gcp.lowes.com",
+        "local": "<local>",
+        "dev": "<dev>",
+        "stage": "<stage>",
+        "prod": "<prod>",
     },
     "uri" : {
         "getConfig" : "/nucleus/config?scope={scopeName}&applicationName={applicationName}",
@@ -15,10 +15,10 @@ NUCLEUS={
 DB={
     "mongo" : {
         "applicationName" : {
-            "local": "spa-etl-dev",
-            "dev": "spa-etl-dev",
-            "stage": "spa-etl-stage",
-            "prod": "spa-etl"
+            "local": "<local>",
+            "dev": "<dev>",
+            "stage": "<stage>",
+            "prod": "<prod>"
         },
         "scope" : {
             "onprem" :"mongo-onprem-connector",
@@ -36,10 +36,10 @@ DB={
 
 GCS={
     "applicationName" : {
-        "local": "spa-etl-dev",
-        "dev": "spa-etl-dev",
-        "stage": "spa-etl-stage",
-        "prod": "spa-etl"
+        "local": "<local>",
+        "dev": "<dev>",
+        "stage": "<stage>",
+        "prod": "<prod>"
     },
      "scope" : {
         "local" :"GCS-CREDENTIALS",
@@ -48,10 +48,10 @@ GCS={
         "prod" :"GCS-CREDENTIALS"
     },
     "bucketName" : {
-        "local" :"clwcirsmnp-medianetwork-dev",
-        "dev" :"clwcirsmnp-medianetwork-dev",
-        "stage" :"clwcirsmnp-medianetwork-stg",
-        "prod" :"clwcirsmnp-medianetwork-prd"
+        "local" :"<local>",
+        "dev" :"<dev>",
+        "stage" :"<stage>",
+        "prod" :"<prod>"
     }
 }
 
@@ -66,7 +66,7 @@ DB_NUCLEUS_HASH = "db_hash"
 QGEN_NUCLEUS_HASH = "qgen_hash"
 DEFAULT_PROFILE = 'prod'
 STRING_EMPTY = ""
-GOOGLE_APPLICATION_CREDENTIALS = '/Users/3560586/Documents/code/lowes/recommendations/sponsored-products/secrets/secrets'
+GOOGLE_APPLICATION_CREDENTIALS = '<local>'
 SERVER_NOT_READY = 'Server is not ready'
 SERVER_READY = 'Server is Ready.'
 SERVER_LIVE = 'Server is Live.'
